@@ -43,6 +43,10 @@ print("------- CADENAS DE TEXTO (STRING) ----- ")
 print(carrera[0]) # se imprime la primera letra
 print(carrera[-1]) # se imprime la última letra
 
+# Aplicando Método Split 
+print(carrera.split())     # se divide la cadena en subcadenas (se genera una lista)
+print(institucion.split())
+
 print("Hola" * 4)    # multiplicación de un string por un entero
 # print ("Hola" / 2) # esto no se puede hacer
 
@@ -61,3 +65,21 @@ lista_mixta = ["Gato", 2, 67.0, True]           # arreglo mixto de elementos
 print(colores[0])  # se imprime el primer elemento de la lista colores
 print(numeros[-1]) # se imprime el último elemento de la lista números
 print(lista_mixta)
+
+# Booleanos (Lógicos)
+luz_electrica = True
+interruptor = False
+
+print("------- BOOLEANOS ----- ")
+print(luz_electrica)
+print(interruptor)
+
+# Método Type que permite saber el tipo de dato de una variable
+print(f"El tipo de dato es {type(num_complejo)}")
+
+print("------- EVALUANDO DATOS BOOLEANOS ----- ")
+print(bool(1))
+print(bool(0))
+print(bool(""))
+print(bool("False"))
+print(bool(3000))
