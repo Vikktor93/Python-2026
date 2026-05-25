@@ -37,7 +37,10 @@ print(float(edad))
 # CADENA DE TEXTO (STRINGS)
 carrera = "Ingenieria Civil en Informática"
 institucion = "Universidad de los Lagos"
+descripcion = '''La asignatura de programación se imparte en el primer semestre, tiene por objetivo
+entregar la base lógica para cualquier estudiante que comience a familiarizarse con la programación.'''
 
+print(descripcion)
 print("------- CADENAS DE TEXTO (STRING) ----- ")
 # Imprimir la posición del caracter
 print(carrera[0]) # se imprime la primera letra
@@ -83,3 +86,8 @@ print(bool(0))
 print(bool(""))
 print(bool("False"))
 print(bool(3000))
+
+# Evaluando Números con Operadores de Comparación
+print(100 > 50)
+print(10 == 10)
+print(20 < 0)
