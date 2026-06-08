@@ -3,6 +3,7 @@
 # Primera Forma de Declaración de Listas (Lista Mixta)
 lista1 = ['Victor', 32, True, "Victor", "Victor", "Victor"]
 ramos = [] # lista vacia
+ramitos = list([])
 
 # Segunda Forma de Declaración de Listas (Lista Númerica)
 n = list([5,4,3,2,1])
@@ -55,3 +56,6 @@ print(ramos_segundo_semestre)
 
 ramos.extend(ramos_segundo_semestre)
 print(ramos)
+
+# Aplicando método index en una lista
+print(ramos_segundo_semestre.index('Álgebra')) # posición 1
